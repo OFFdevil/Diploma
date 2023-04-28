@@ -1,0 +1,129 @@
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial source changes: [0m
+[0m[[0m[0mdebug[0m] [0m[0m	removed:Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	added: Set(/home/ondevil/Bremen/ConstructorUniversity/3course/Diploma/20230428/MPST_toolchain_for_fault-tolerant_distributed_EDP/util/src/main/scala/event_lang/LocalTypeGenerator.scala, /home/ondevil/Bremen/ConstructorUniversity/3course/Diploma/20230428/MPST_toolchain_for_fault-tolerant_distributed_EDP/util/src/main/scala/event_lang/HardcodedLocalTypeGen.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	modified: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated products: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mExternal API changes: API Changes: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mModified binary dependencies: Set(/home/ondevil/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/config/1.3.4/config-1.3.4.jar, /home/ondevil/.cache/coursier/v1/https/repo1.maven.org/maven2/com/twitter/bijection-core_2.12/0.9.7/bijection-core_2.12-0.9.7.jar, /home/ondevil/.cache/coursier/v1/https/repo1.maven.org/maven2/com/twitter/chill_2.12/0.9.5/chill_2.12-0.9.5.jar, /home/ondevil/.cache/coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-all/4.1.52.Final/netty-all-4.1.52.Final.jar, /home/ondevil/.cache/coursier/v1/https/repo1.maven.org/maven2/org/antlr/antlr4/4.5.1/antlr4-4.5.1.jar, /home/ondevil/Bremen/ConstructorUniversity/3course/Diploma/20230428/MPST_toolchain_for_fault-tolerant_distributed_EDP/core/target/scala-2.12/classes, /home/ondevil/.cache/coursier/v1/https/repo1.maven.org/maven2/com/twitter/chill-bijection_2.12/0.9.5/chill-bijection_2.12-0.9.5.jar, /home/ondevil/.cache/coursier/v1/https/repo1.maven.org/maven2/com/twitter/chill-java/0.9.5/chill-java-0.9.5.jar, /home/ondevil/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/logging/log4j/log4j-core/2.13.3/log4j-core-2.13.3.jar, /home/ondevil/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/xbean/xbean-asm7-shaded/4.15/xbean-asm7-shaded-4.15.jar, /home/ondevil/.cache/coursier/v1/https/repo1.maven.org/maven2/com/esotericsoftware/minlog/1.3.0/minlog-1.3.0.jar, /home/ondevil/.cache/coursier/v1/https/repo1.maven.org/maven2/org/objenesis/objenesis/2.5.1/objenesis-2.5.1.jar, /home/ondevil/.cache/coursier/v1/https/repo1.maven.org/maven2/com/esotericsoftware/kryo-shaded/4.0.2/kryo-shaded-4.0.2.jar, /home/ondevil/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/logging/log4j/log4j-api/2.13.3/log4j-api-2.13.3.jar, /home/ondevil/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.12/scala-library-2.12.12.jar)[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial directly invalidated classes: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mSources indirectly invalidated by:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	product: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	binary dep: Set(/home/ondevil/Bremen/ConstructorUniversity/3course/Diploma/20230428/MPST_toolchain_for_fault-tolerant_distributed_EDP/util/src/main/scala/event_lang/HardcodedLocalTypeGen.scala, /home/ondevil/Bremen/ConstructorUniversity/3course/Diploma/20230428/MPST_toolchain_for_fault-tolerant_distributed_EDP/util/src/main/scala/event_lang/LocalTypeGenerator.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	external source: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll sources are invalidated.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial source changes: [0m
+[0m[[0m[0mdebug[0m] [0m[0m	removed:Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	added: Set(/home/ondevil/Bremen/ConstructorUniversity/3course/Diploma/20230428/MPST_toolchain_for_fault-tolerant_distributed_EDP/util/src/main/scala/event_lang/LocalTypeGenerator.scala, /home/ondevil/Bremen/ConstructorUniversity/3course/Diploma/20230428/MPST_toolchain_for_fault-tolerant_distributed_EDP/util/src/main/scala/event_lang/HardcodedLocalTypeGen.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	modified: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated products: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mExternal API changes: API Changes: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mModified binary dependencies: Set(/home/ondevil/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/config/1.3.4/config-1.3.4.jar, /home/ondevil/.cache/coursier/v1/https/repo1.maven.org/maven2/com/twitter/bijection-core_2.12/0.9.7/bijection-core_2.12-0.9.7.jar, /home/ondevil/.cache/coursier/v1/https/repo1.maven.org/maven2/com/twitter/chill_2.12/0.9.5/chill_2.12-0.9.5.jar, /home/ondevil/.cache/coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-all/4.1.52.Final/netty-all-4.1.52.Final.jar, /home/ondevil/.cache/coursier/v1/https/repo1.maven.org/maven2/org/antlr/antlr4/4.5.1/antlr4-4.5.1.jar, /home/ondevil/Bremen/ConstructorUniversity/3course/Diploma/20230428/MPST_toolchain_for_fault-tolerant_distributed_EDP/core/target/scala-2.12/classes, /home/ondevil/.cache/coursier/v1/https/repo1.maven.org/maven2/com/twitter/chill-bijection_2.12/0.9.5/chill-bijection_2.12-0.9.5.jar, /home/ondevil/.cache/coursier/v1/https/repo1.maven.org/maven2/com/twitter/chill-java/0.9.5/chill-java-0.9.5.jar, /home/ondevil/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/logging/log4j/log4j-core/2.13.3/log4j-core-2.13.3.jar, /home/ondevil/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/xbean/xbean-asm7-shaded/4.15/xbean-asm7-shaded-4.15.jar, /home/ondevil/.cache/coursier/v1/https/repo1.maven.org/maven2/com/esotericsoftware/minlog/1.3.0/minlog-1.3.0.jar, /home/ondevil/.cache/coursier/v1/https/repo1.maven.org/maven2/org/objenesis/objenesis/2.5.1/objenesis-2.5.1.jar, /home/ondevil/.cache/coursier/v1/https/repo1.maven.org/maven2/com/esotericsoftware/kryo-shaded/4.0.2/kryo-shaded-4.0.2.jar, /home/ondevil/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/logging/log4j/log4j-api/2.13.3/log4j-api-2.13.3.jar, /home/ondevil/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.12/scala-library-2.12.12.jar)[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial directly invalidated classes: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mSources indirectly invalidated by:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	product: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	binary dep: Set(/home/ondevil/Bremen/ConstructorUniversity/3course/Diploma/20230428/MPST_toolchain_for_fault-tolerant_distributed_EDP/util/src/main/scala/event_lang/HardcodedLocalTypeGen.scala, /home/ondevil/Bremen/ConstructorUniversity/3course/Diploma/20230428/MPST_toolchain_for_fault-tolerant_distributed_EDP/util/src/main/scala/event_lang/LocalTypeGenerator.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	external source: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: [0m
+[0m[[0m[0mdebug[0m] [0m[0mAll sources are invalidated.[0m
+[0m[[0m[0mdebug[0m] [0m[0mRecompiling all sources: number of invalidated sources > 50.0% of all sources[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: [0m
+[0m[[0m[0mdebug[0m] [0m[0mRecompiling all sources: number of invalidated sources > 50.0% of all sources[0m
+[0m[[0m[31merror[0m] [0m[0m## Exception when compiling 2 sources to /home/ondevil/Bremen/ConstructorUniversity/3course/Diploma/20230428/MPST_toolchain_for_fault-tolerant_distributed_EDP/util/target/scala-2.12/classes[0m
+[0m[[0m[31merror[0m] [0m[0mjava.io.IOException: No such file or directory[0m
+[0m[[0m[31merror[0m] [0m[0mjava.base/java.io.UnixFileSystem.createFileExclusively(Native Method)[0m
+[0m[[0m[31merror[0m] [0m[0mjava.base/java.io.File.createTempFile(File.java:2170)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.internal.inc.ClassFileManager$TransactionalClassFileManager.move(ClassFileManager.scala:176)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.internal.inc.ClassFileManager$TransactionalClassFileManager.$anonfun$delete$4(ClassFileManager.scala:152)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.collection.IndexedSeqOptimized.foreach(IndexedSeqOptimized.scala:36)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.collection.IndexedSeqOptimized.foreach$(IndexedSeqOptimized.scala:33)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.collection.mutable.ArrayOps$ofRef.foreach(ArrayOps.scala:198)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.internal.inc.ClassFileManager$TransactionalClassFileManager.delete(ClassFileManager.scala:151)[0m
+[0m[[0m[31merror[0m] [0m[0mxsbti.compile.WrappedClassFileManager.delete(WrappedClassFileManager.java:44)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.internal.inc.IncrementalCommon$.pruneClassFilesOfInvalidations(IncrementalCommon.scala:752)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.internal.inc.IncrementalCommon.recompileClasses(IncrementalCommon.scala:178)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.internal.inc.IncrementalCommon.cycle(IncrementalCommon.scala:98)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.internal.inc.Incremental$.$anonfun$compile$3(Incremental.scala:102)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.internal.inc.Incremental$.manageClassfiles(Incremental.scala:155)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.internal.inc.Incremental$.compile(Incremental.scala:92)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.internal.inc.IncrementalCompile$.apply(Compile.scala:75)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.internal.inc.IncrementalCompilerImpl.compileInternal(IncrementalCompilerImpl.scala:348)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.internal.inc.IncrementalCompilerImpl.$anonfun$compileIncrementally$1(IncrementalCompilerImpl.scala:301)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.internal.inc.IncrementalCompilerImpl.handleCompilationError(IncrementalCompilerImpl.scala:168)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.internal.inc.IncrementalCompilerImpl.compileIncrementally(IncrementalCompilerImpl.scala:248)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.internal.inc.IncrementalCompilerImpl.compile(IncrementalCompilerImpl.scala:74)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.Defaults$.compileIncrementalTaskImpl(Defaults.scala:1761)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.Defaults$.$anonfun$compileIncrementalTask$1(Defaults.scala:1734)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.Function1.$anonfun$compose$1(Function1.scala:49)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.internal.util.$tilde$greater.$anonfun$$u2219$1(TypeFunctions.scala:62)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.std.Transform$$anon$4.work(Transform.scala:67)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.Execute.$anonfun$submit$2(Execute.scala:281)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.internal.util.ErrorHandling$.wideConvert(ErrorHandling.scala:19)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.Execute.work(Execute.scala:290)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.Execute.$anonfun$submit$1(Execute.scala:281)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.ConcurrentRestrictions$$anon$4.$anonfun$submitValid$1(ConcurrentRestrictions.scala:178)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.CompletionService$$anon$2.call(CompletionService.scala:37)[0m
+[0m[[0m[31merror[0m] [0m[0mjava.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)[0m
+[0m[[0m[31merror[0m] [0m[0mjava.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)[0m
+[0m[[0m[31merror[0m] [0m[0mjava.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)[0m
+[0m[[0m[31merror[0m] [0m[0mjava.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)[0m
+[0m[[0m[31merror[0m] [0m[0mjava.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)[0m
+[0m[[0m[31merror[0m] [0m[0mjava.base/java.lang.Thread.run(Thread.java:833)[0m
+[0m[[0m[31merror[0m] [0m[0m           [0m
+[0m[[0m[0minfo[0m] [0m[0mCompiling 2 Scala sources to /home/ondevil/Bremen/ConstructorUniversity/3course/Diploma/20230428/MPST_toolchain_for_fault-tolerant_distributed_EDP/util/target/scala-2.12/classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.12:1.3.1:compile for Scala 2.12.12[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.12:1.3.1:compile for Scala 2.12.12[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] Running cached compiler 5a69b7d6 for Scala compiler version 2.12.12[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] The Scala compiler is invoked with:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	utf8[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-language:postfixOps[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-explaintypes[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-bootclasspath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/ondevil/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.12/scala-library-2.12.12.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-classpath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/ondevil/Bremen/ConstructorUniversity/3course/Diploma/20230428/MPST_toolchain_for_fault-tolerant_distributed_EDP/util/target/scala-2.12/classes:/home/ondevil/Bremen/ConstructorUniversity/3course/Diploma/20230428/MPST_toolchain_for_fault-tolerant_distributed_EDP/core/target/scala-2.12/classes:/home/ondevil/.cache/coursier/v1/https/repo1.maven.org/maven2/com/esotericsoftware/minlog/1.3.0/minlog-1.3.0.jar:/home/ondevil/.cache/coursier/v1/https/repo1.maven.org/maven2/org/objenesis/objenesis/2.5.1/objenesis-2.5.1.jar:/home/ondevil/.cache/coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-all/4.1.52.Final/netty-all-4.1.52.Final.jar:/home/ondevil/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/xbean/xbean-asm7-shaded/4.15/xbean-asm7-shaded-4.15.jar:/home/ondevil/.cache/coursier/v1/https/repo1.maven.org/maven2/com/twitter/bijection-core_2.12/0.9.7/bijection-core_2.12-0.9.7.jar:/home/ondevil/.cache/coursier/v1/https/repo1.maven.org/maven2/org/antlr/antlr4/4.5.1/antlr4-4.5.1.jar:/home/ondevil/.cache/coursier/v1/https/repo1.maven.org/maven2/com/twitter/chill_2.12/0.9.5/chill_2.12-0.9.5.jar:/home/ondevil/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/config/1.3.4/config-1.3.4.jar:/home/ondevil/.cache/coursier/v1/https/repo1.maven.org/maven2/com/esotericsoftware/kryo-shaded/4.0.2/kryo-shaded-4.0.2.jar:/home/ondevil/.cache/coursier/v1/https/repo1.maven.org/maven2/com/twitter/chill-bijection_2.12/0.9.5/chill-bijection_2.12-0.9.5.jar:/home/ondevil/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/logging/log4j/log4j-api/2.13.3/log4j-api-2.13.3.jar:/home/ondevil/.cache/coursier/v1/https/repo1.maven.org/maven2/com/twitter/chill-java/0.9.5/chill-java-0.9.5.jar:/home/ondevil/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/logging/log4j/log4j-core/2.13.3/log4j-core-2.13.3.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mScala compilation took 0.547092224 s[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone compiling.[0m
+[0m[[0m[31merror[0m] [0m[0mjava.io.IOException: No such file or directory[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.io.UnixFileSystem.createFileExclusively(Native Method)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.io.File.createTempFile(File.java:2170)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.inc.ClassFileManager$TransactionalClassFileManager.move(ClassFileManager.scala:176)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.inc.ClassFileManager$TransactionalClassFileManager.$anonfun$delete$4(ClassFileManager.scala:152)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.collection.IndexedSeqOptimized.foreach(IndexedSeqOptimized.scala:36)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.collection.IndexedSeqOptimized.foreach$(IndexedSeqOptimized.scala:33)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.collection.mutable.ArrayOps$ofRef.foreach(ArrayOps.scala:198)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.inc.ClassFileManager$TransactionalClassFileManager.delete(ClassFileManager.scala:151)[0m
+[0m[[0m[31merror[0m] [0m[0m	at xsbti.compile.WrappedClassFileManager.delete(WrappedClassFileManager.java:44)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.inc.IncrementalCommon$.pruneClassFilesOfInvalidations(IncrementalCommon.scala:752)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.inc.IncrementalCommon.recompileClasses(IncrementalCommon.scala:178)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.inc.IncrementalCommon.cycle(IncrementalCommon.scala:98)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.inc.Incremental$.$anonfun$compile$3(Incremental.scala:102)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.inc.Incremental$.manageClassfiles(Incremental.scala:155)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.inc.Incremental$.compile(Incremental.scala:92)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.inc.IncrementalCompile$.apply(Compile.scala:75)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.inc.IncrementalCompilerImpl.compileInternal(IncrementalCompilerImpl.scala:348)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.inc.IncrementalCompilerImpl.$anonfun$compileIncrementally$1(IncrementalCompilerImpl.scala:301)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.inc.IncrementalCompilerImpl.handleCompilationError(IncrementalCompilerImpl.scala:168)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.inc.IncrementalCompilerImpl.compileIncrementally(IncrementalCompilerImpl.scala:248)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.inc.IncrementalCompilerImpl.compile(IncrementalCompilerImpl.scala:74)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Defaults$.compileIncrementalTaskImpl(Defaults.scala:1761)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Defaults$.$anonfun$compileIncrementalTask$1(Defaults.scala:1734)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.Function1.$anonfun$compose$1(Function1.scala:49)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.util.$tilde$greater.$anonfun$$u2219$1(TypeFunctions.scala:62)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.std.Transform$$anon$4.work(Transform.scala:67)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Execute.$anonfun$submit$2(Execute.scala:281)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.util.ErrorHandling$.wideConvert(ErrorHandling.scala:19)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Execute.work(Execute.scala:290)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Execute.$anonfun$submit$1(Execute.scala:281)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.ConcurrentRestrictions$$anon$4.$anonfun$submitValid$1(ConcurrentRestrictions.scala:178)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.CompletionService$$anon$2.call(CompletionService.scala:37)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.lang.Thread.run(Thread.java:833)[0m
+[0m[[0m[31merror[0m] [0m[0m(util / Compile / [31mcompileIncremental[0m) java.io.IOException: No such file or directory[0m

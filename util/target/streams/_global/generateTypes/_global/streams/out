@@ -1,0 +1,49 @@
+[0m[[0m[0minfo[0m] [0m[0mrunning event_lang.LocalTypeGenerator SesCMPaperTypes org.apache.storm.deploy.types /code/git/resource_manager/session_cm/src/main/scala -p SESSION_CM_FULL[0m
+[0m[[0m[0mdebug[0m] [0m[0mWaiting for threads to exit or System.exit to be called.[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Classpath:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/ondevil/Bremen/ConstructorUniversity/3course/Diploma/20230428/MPST_toolchain_for_fault-tolerant_distributed_EDP/util/target/scala-2.12/test-classes[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/ondevil/Bremen/ConstructorUniversity/3course/Diploma/20230428/MPST_toolchain_for_fault-tolerant_distributed_EDP/util/target/scala-2.12/classes[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/ondevil/Bremen/ConstructorUniversity/3course/Diploma/20230428/MPST_toolchain_for_fault-tolerant_distributed_EDP/core/target/scala-2.12/classes[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/ondevil/.cache/coursier/v1/https/repo1.maven.org/maven2/com/esotericsoftware/minlog/1.3.0/minlog-1.3.0.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/ondevil/.cache/coursier/v1/https/repo1.maven.org/maven2/org/objenesis/objenesis/2.5.1/objenesis-2.5.1.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/ondevil/.cache/coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-all/4.1.52.Final/netty-all-4.1.52.Final.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/ondevil/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/xbean/xbean-asm7-shaded/4.15/xbean-asm7-shaded-4.15.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/ondevil/.cache/coursier/v1/https/repo1.maven.org/maven2/com/twitter/bijection-core_2.12/0.9.7/bijection-core_2.12-0.9.7.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/ondevil/.cache/coursier/v1/https/repo1.maven.org/maven2/org/antlr/antlr4/4.5.1/antlr4-4.5.1.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/ondevil/.cache/coursier/v1/https/repo1.maven.org/maven2/com/twitter/chill_2.12/0.9.5/chill_2.12-0.9.5.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/ondevil/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.12/scala-library-2.12.12.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/ondevil/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/config/1.3.4/config-1.3.4.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/ondevil/.cache/coursier/v1/https/repo1.maven.org/maven2/com/esotericsoftware/kryo-shaded/4.0.2/kryo-shaded-4.0.2.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/ondevil/.cache/coursier/v1/https/repo1.maven.org/maven2/com/twitter/chill-bijection_2.12/0.9.5/chill-bijection_2.12-0.9.5.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/ondevil/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/logging/log4j/log4j-api/2.13.3/log4j-api-2.13.3.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/ondevil/.cache/coursier/v1/https/repo1.maven.org/maven2/com/twitter/chill-java/0.9.5/chill-java-0.9.5.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/ondevil/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/logging/log4j/log4j-core/2.13.3/log4j-core-2.13.3.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mWaiting for thread run-main-0 to terminate.[0m
+[0m[[0m[31merror[0m] [0m[0m(run-main-0) java.io.FileNotFoundException: /code/git/resource_manager/session_cm/src/main/scala (No such file or directory)[0m
+[0m[[0m[31merror[0m] [0m[0mjava.io.FileNotFoundException: /code/git/resource_manager/session_cm/src/main/scala (No such file or directory)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.io.FileOutputStream.open0(Native Method)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:123)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.io.PrintWriter.<init>(PrintWriter.java:200)[0m
+[0m[[0m[31merror[0m] [0m[0m	at event_lang.LocalTypeGenerator$.codeGen(LocalTypeGenerator.scala:21)[0m
+[0m[[0m[31merror[0m] [0m[0m	at event_lang.LocalTypeGenerator$.main(LocalTypeGenerator.scala:56)[0m
+[0m[[0m[31merror[0m] [0m[0m	at event_lang.LocalTypeGenerator.main(LocalTypeGenerator.scala)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.lang.reflect.Method.invoke(Method.java:568)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Run.invokeMain(Run.scala:115)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Run.execute$1(Run.scala:79)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Run.$anonfun$runWithLoader$4(Run.scala:92)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.util.InterfaceUtil$$anon$1.get(InterfaceUtil.scala:10)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.TrapExit$App.run(TrapExit.scala:257)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.lang.Thread.run(Thread.java:833)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Thread run-main-0 exited.[0m
+[0m[[0m[0mdebug[0m] [0m[0mInterrupting remaining threads (should be all daemons).[0m
+[0m[[0m[0mdebug[0m] [0m[0mInterrupting thread pool-11-thread-1[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Interrupted pool-11-thread-1[0m
+[0m[[0m[0mdebug[0m] [0m[0mSandboxed run complete..[0m
+[0m[[0m[31merror[0m] [0m[0mNonzero exit code: 1[0m
+[0m[[0m[31merror[0m] [0m[0m(util / [31mgenerateTypes[0m) Nonzero exit code: 1[0m

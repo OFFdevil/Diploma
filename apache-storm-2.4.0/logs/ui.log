@@ -1,0 +1,87 @@
+2023-04-28 13:04:16.807 o.a.s.v.ConfigValidation main [INFO] Will use [class org.apache.storm.DaemonConfig, class org.apache.storm.Config] for validation
+2023-04-28 13:04:16.931 o.e.j.u.log main [INFO] Logging initialized @860ms to org.eclipse.jetty.util.log.Slf4jLog
+2023-04-28 13:04:17.041 o.a.s.d.m.MetricsUtils main [INFO] Using statistics reporter plugin:org.apache.storm.daemon.metrics.reporters.JmxPreparableReporter
+2023-04-28 13:04:17.043 o.a.s.d.m.r.JmxPreparableReporter main [INFO] Preparing...
+2023-04-28 13:04:17.047 o.a.s.m.StormMetricsRegistry main [INFO] Started statistics report plugin...
+2023-04-28 13:04:17.052 o.e.j.s.Server main [INFO] jetty-9.4.14.v20181114; built: 2018-11-14T21:20:31.478Z; git: c4550056e785fb5665914545889f21dc136ad9e6; jvm 17.0.1+12-LTS-39
+2023-04-28 13:04:17.088 o.e.j.s.session main [INFO] DefaultSessionIdManager workerName=node0
+2023-04-28 13:04:17.088 o.e.j.s.session main [INFO] No SessionScavenger set, using defaults
+2023-04-28 13:04:17.090 o.e.j.s.session main [INFO] node0 Scavenging every 600000ms
+2023-04-28 13:04:17.647 o.e.j.s.h.ContextHandler main [INFO] Started o.e.j.s.ServletContextHandler@372ca2d6{/,null,AVAILABLE}
+2023-04-28 13:04:17.651 o.a.s.d.u.UIServer main [ERROR] Exception in UIServer: 
+java.io.IOException: Failed to bind to 0.0.0.0/0.0.0.0:8080
+	at org.eclipse.jetty.server.ServerConnector.openAcceptChannel(ServerConnector.java:346) ~[jetty-server-9.4.14.v20181114.jar:9.4.14.v20181114]
+	at org.eclipse.jetty.server.ServerConnector.open(ServerConnector.java:308) ~[jetty-server-9.4.14.v20181114.jar:9.4.14.v20181114]
+	at org.eclipse.jetty.server.AbstractNetworkConnector.doStart(AbstractNetworkConnector.java:80) ~[jetty-server-9.4.14.v20181114.jar:9.4.14.v20181114]
+	at org.eclipse.jetty.server.ServerConnector.doStart(ServerConnector.java:236) ~[jetty-server-9.4.14.v20181114.jar:9.4.14.v20181114]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68) ~[jetty-util-9.4.14.v20181114.jar:9.4.14.v20181114]
+	at org.eclipse.jetty.server.Server.doStart(Server.java:394) ~[jetty-server-9.4.14.v20181114.jar:9.4.14.v20181114]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68) ~[jetty-util-9.4.14.v20181114.jar:9.4.14.v20181114]
+	at org.apache.storm.daemon.ui.UIServer.main(UIServer.java:179) [storm-webapp-2.4.0.jar:2.4.0]
+Caused by: java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind0(Native Method) ~[?:?]
+	at sun.nio.ch.Net.bind(Net.java:555) ~[?:?]
+	at sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:337) ~[?:?]
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:294) ~[?:?]
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:89) ~[?:?]
+	at org.eclipse.jetty.server.ServerConnector.openAcceptChannel(ServerConnector.java:342) ~[jetty-server-9.4.14.v20181114.jar:9.4.14.v20181114]
+	... 7 more
+2023-04-28 13:04:23.582 o.a.s.u.Utils ShutdownHook-sleepKill-1s [INFO] Halting after 1 seconds
+2023-04-28 13:05:45.961 o.a.s.v.ConfigValidation main [INFO] Will use [class org.apache.storm.DaemonConfig, class org.apache.storm.Config] for validation
+2023-04-28 13:05:46.075 o.e.j.u.log main [INFO] Logging initialized @834ms to org.eclipse.jetty.util.log.Slf4jLog
+2023-04-28 13:05:46.182 o.a.s.d.m.MetricsUtils main [INFO] Using statistics reporter plugin:org.apache.storm.daemon.metrics.reporters.JmxPreparableReporter
+2023-04-28 13:05:46.183 o.a.s.d.m.r.JmxPreparableReporter main [INFO] Preparing...
+2023-04-28 13:05:46.188 o.a.s.m.StormMetricsRegistry main [INFO] Started statistics report plugin...
+2023-04-28 13:05:46.193 o.e.j.s.Server main [INFO] jetty-9.4.14.v20181114; built: 2018-11-14T21:20:31.478Z; git: c4550056e785fb5665914545889f21dc136ad9e6; jvm 17.0.1+12-LTS-39
+2023-04-28 13:05:46.225 o.e.j.s.session main [INFO] DefaultSessionIdManager workerName=node0
+2023-04-28 13:05:46.225 o.e.j.s.session main [INFO] No SessionScavenger set, using defaults
+2023-04-28 13:05:46.227 o.e.j.s.session main [INFO] node0 Scavenging every 660000ms
+2023-04-28 13:05:46.800 o.e.j.s.h.ContextHandler main [INFO] Started o.e.j.s.ServletContextHandler@372ca2d6{/,null,AVAILABLE}
+2023-04-28 13:05:46.804 o.a.s.d.u.UIServer main [ERROR] Exception in UIServer: 
+java.io.IOException: Failed to bind to 0.0.0.0/0.0.0.0:8080
+	at org.eclipse.jetty.server.ServerConnector.openAcceptChannel(ServerConnector.java:346) ~[jetty-server-9.4.14.v20181114.jar:9.4.14.v20181114]
+	at org.eclipse.jetty.server.ServerConnector.open(ServerConnector.java:308) ~[jetty-server-9.4.14.v20181114.jar:9.4.14.v20181114]
+	at org.eclipse.jetty.server.AbstractNetworkConnector.doStart(AbstractNetworkConnector.java:80) ~[jetty-server-9.4.14.v20181114.jar:9.4.14.v20181114]
+	at org.eclipse.jetty.server.ServerConnector.doStart(ServerConnector.java:236) ~[jetty-server-9.4.14.v20181114.jar:9.4.14.v20181114]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68) ~[jetty-util-9.4.14.v20181114.jar:9.4.14.v20181114]
+	at org.eclipse.jetty.server.Server.doStart(Server.java:394) ~[jetty-server-9.4.14.v20181114.jar:9.4.14.v20181114]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68) ~[jetty-util-9.4.14.v20181114.jar:9.4.14.v20181114]
+	at org.apache.storm.daemon.ui.UIServer.main(UIServer.java:179) [storm-webapp-2.4.0.jar:2.4.0]
+Caused by: java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind0(Native Method) ~[?:?]
+	at sun.nio.ch.Net.bind(Net.java:555) ~[?:?]
+	at sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:337) ~[?:?]
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:294) ~[?:?]
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:89) ~[?:?]
+	at org.eclipse.jetty.server.ServerConnector.openAcceptChannel(ServerConnector.java:342) ~[jetty-server-9.4.14.v20181114.jar:9.4.14.v20181114]
+	... 7 more
+2023-04-28 13:08:23.024 o.a.s.u.Utils ShutdownHook-sleepKill-1s [INFO] Halting after 1 seconds
+2023-04-28 13:09:30.376 o.a.s.v.ConfigValidation main [INFO] Will use [class org.apache.storm.DaemonConfig, class org.apache.storm.Config] for validation
+2023-04-28 13:09:30.518 o.e.j.u.log main [INFO] Logging initialized @925ms to org.eclipse.jetty.util.log.Slf4jLog
+2023-04-28 13:09:30.626 o.a.s.d.m.MetricsUtils main [INFO] Using statistics reporter plugin:org.apache.storm.daemon.metrics.reporters.JmxPreparableReporter
+2023-04-28 13:09:30.627 o.a.s.d.m.r.JmxPreparableReporter main [INFO] Preparing...
+2023-04-28 13:09:30.632 o.a.s.m.StormMetricsRegistry main [INFO] Started statistics report plugin...
+2023-04-28 13:09:30.637 o.e.j.s.Server main [INFO] jetty-9.4.14.v20181114; built: 2018-11-14T21:20:31.478Z; git: c4550056e785fb5665914545889f21dc136ad9e6; jvm 17.0.1+12-LTS-39
+2023-04-28 13:09:30.673 o.e.j.s.session main [INFO] DefaultSessionIdManager workerName=node0
+2023-04-28 13:09:30.674 o.e.j.s.session main [INFO] No SessionScavenger set, using defaults
+2023-04-28 13:09:30.675 o.e.j.s.session main [INFO] node0 Scavenging every 600000ms
+2023-04-28 13:09:31.295 o.e.j.s.h.ContextHandler main [INFO] Started o.e.j.s.ServletContextHandler@372ca2d6{/,null,AVAILABLE}
+2023-04-28 13:09:31.299 o.a.s.d.u.UIServer main [ERROR] Exception in UIServer: 
+java.io.IOException: Failed to bind to 0.0.0.0/0.0.0.0:8080
+	at org.eclipse.jetty.server.ServerConnector.openAcceptChannel(ServerConnector.java:346) ~[jetty-server-9.4.14.v20181114.jar:9.4.14.v20181114]
+	at org.eclipse.jetty.server.ServerConnector.open(ServerConnector.java:308) ~[jetty-server-9.4.14.v20181114.jar:9.4.14.v20181114]
+	at org.eclipse.jetty.server.AbstractNetworkConnector.doStart(AbstractNetworkConnector.java:80) ~[jetty-server-9.4.14.v20181114.jar:9.4.14.v20181114]
+	at org.eclipse.jetty.server.ServerConnector.doStart(ServerConnector.java:236) ~[jetty-server-9.4.14.v20181114.jar:9.4.14.v20181114]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68) ~[jetty-util-9.4.14.v20181114.jar:9.4.14.v20181114]
+	at org.eclipse.jetty.server.Server.doStart(Server.java:394) ~[jetty-server-9.4.14.v20181114.jar:9.4.14.v20181114]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68) ~[jetty-util-9.4.14.v20181114.jar:9.4.14.v20181114]
+	at org.apache.storm.daemon.ui.UIServer.main(UIServer.java:179) [storm-webapp-2.4.0.jar:2.4.0]
+Caused by: java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind0(Native Method) ~[?:?]
+	at sun.nio.ch.Net.bind(Net.java:555) ~[?:?]
+	at sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:337) ~[?:?]
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:294) ~[?:?]
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:89) ~[?:?]
+	at org.eclipse.jetty.server.ServerConnector.openAcceptChannel(ServerConnector.java:342) ~[jetty-server-9.4.14.v20181114.jar:9.4.14.v20181114]
+	... 7 more
+2023-04-28 13:21:57.310 o.a.s.u.Utils ShutdownHook-sleepKill-1s [INFO] Halting after 1 seconds
