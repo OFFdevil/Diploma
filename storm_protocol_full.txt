@@ -1,0 +1,64 @@
+	{
+	    PStartNimbusMonitoringWorkers(zk : ZK, n : N, s : S, w : W, W) = {
+            n -> s : StartMonitoring(appId : Int workerId : Int)
+            with
+                w@n.
+                    n -> W : {
+                        FailWorkerSpawnFoundNimbus(appId : Int newAppId : Int) :
+                            spawn PWorker(zk,n,s,_W,W).0,
+                        FailWorkerEnd(appId : Int exId : Int) : 0
+                    }
+        };
+
+	    PWorker(zk : ZK, n : N, s : S, _w : W, W) = {
+	        s -> w  : StartEx(appId : Int).
+            s -> n  : ExStarted(appId : Int workerId : Int).
+            s -> w  : ExRunning(appId : Int workerId : Int).
+            s -> zk : UpdateState(appId : Int workerId : Int).
+            n -> w  : ExFinishStatus(appId : Int workerId : Int).
+            spawn PStartNimbusMonitoringWorkers(zk,n,s,w,W).0
+            with
+	           w@s.
+	               s -> W : {
+	                   FailWorkerSpawnFoundSupervisor(appId : Int newAppId : Int) :
+	                       spawn PWorker(zk, n, s, _W, W).0,
+	                   FailWorkerEnd(appId : Int exId : Int) : 0
+	               }
+	    };
+
+	    PStartWorkers(zk : ZK, n : N, s : S, _tw : W, W) = {
+	        mu t.
+                s -> W : {
+                    AddWorker(appId : Int workerId : Int) : spawn PWorker(zk,n,s,_W,W).t,
+                    UpdateState() : s -> zk : SUpdateState(). zk -> n : ZkUpdateState().0}
+            with
+                tw@s.
+                    s -> W : {
+                        FailStartWorkersSpawn(appId : Int newAppId : Int) :
+                            spawn PStartWorkers(n, s, _W, W).0,
+                        FailStartWorkersEnd(appId : Int exId : Int) : 0
+                    }
+	    };
+
+	    PSupervisor(zk : ZK, n : N, _s : S, S, W) = {
+           n -> s : LaunchSupervisor(appID : Int).
+           spawn PStartWorkers(zk, n, s, _W, S, W).
+           s -> zk : SStateChange().
+           zk -> n : ZkUpdateChange().0
+         with
+           s@n. n -> S : {
+                FailSupervisorSpawn(appId : Int newAppID : Int) :
+                    spawn PSupervisor(zk, n, _S, S, W).0,
+                FailSupervisorEnd(appId : Int ) : 0}
+        };
+
+        Main (zk : ZK, _n : N, N, S, W) = {
+       	   mu t.
+             n -> zk : {
+               NewSupervisor(appID : Int) : n -> S : PrepSpawn(). spawn PSupervisor(zk, n, _S, S, W). t,
+               SupervisorDone(appID : Int) : n -> S : BMsg(). t,
+               EndCM() : n -> S : Terminate(). 0}
+         with
+           n@zk. zk -> N : FailNtoN(). zk -> S : FailNtoS(). zk -> W : FailNtoW(). 0
+        };
+	}

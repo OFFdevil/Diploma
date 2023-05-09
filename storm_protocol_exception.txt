@@ -1,0 +1,21 @@
+	{
+	    PSupervisor(n : N, _s : W, W) = {
+           n -> s : LaunchSupervisor(appID : Int).0
+         with
+           s@n.
+             n -> W : {
+               FailSupervisorSpawn(appId : Int newAppID : Int) :
+                 spawn PSupervisor(n,_W,W).0,
+               FailSupervisorEnd(appId : Int) : 0}
+        };
+
+        Main (zk : ZK, _n : N, N, S, W) = {
+       	   mu t.
+             n -> zk : {
+               NewSupervisor(appID : Int) : n -> W : PrepSpawn(). spawn PSupervisor(n, _W, W). t,
+               SupervisorDone(appID : Int) : n -> W : BMsg(). t,
+               EndCM() : n -> W : Terminate(). 0}
+         with
+           n@zk. zk -> N : FailNtoN(). zk -> W : FailNtoS(). zk -> S : Pizda(). 0
+        };
+	}

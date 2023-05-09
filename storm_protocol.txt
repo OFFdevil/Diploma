@@ -1,5 +1,5 @@
 	{
-	PSupervisor(m : M, _w : W, W) = {
+	    PSupervisor(m : M, _w : W, W) = {
            m -> w : LaunchSupervisor(appID : Int).0
          with
            w@m.
