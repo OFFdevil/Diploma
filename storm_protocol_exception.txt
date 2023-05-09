@@ -16,6 +16,6 @@
                SupervisorDone(appID : Int) : n -> W : BMsg(). t,
                EndCM() : n -> W : Terminate(). 0}
          with
-           n@zk. zk -> N : FailNtoN(). zk -> W : FailNtoS(). zk -> S : Pizda(). 0
+           n@zk. zk -> N : FailNtoN(). zk -> W : FailNtoW(). zk -> S : FailNtoS(). 0
         };
 	}

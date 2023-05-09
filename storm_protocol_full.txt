@@ -1,6 +1,6 @@
 	{
-	    PStartNimbusMonitoringWorkers(zk : ZK, n : N, s : S, w : W, W) = {
-            n -> s : StartMonitoring(appId : Int workerId : Int)
+	    PStartNimbusMonitoringWorkers(zk : ZK, n : N, s : S, w : W, _w : W, W) = {
+            n -> s : StartMonitoring(appId : Int workerId : Int).0
             with
                 w@n.
                     n -> W : {
@@ -16,7 +16,7 @@
             s -> w  : ExRunning(appId : Int workerId : Int).
             s -> zk : UpdateState(appId : Int workerId : Int).
             n -> w  : ExFinishStatus(appId : Int workerId : Int).
-            spawn PStartNimbusMonitoringWorkers(zk,n,s,w,W).0
+            spawn PStartNimbusMonitoringWorkers(zk,n,s,w,_W,W).0
             with
 	           w@s.
 	               s -> W : {
