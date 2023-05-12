@@ -5,12 +5,12 @@
                 w@n.
                     n -> W : {
                         FailWorkerSpawnFoundNimbus(appId : Int newAppId : Int) :
-                            n -> zk : X0000001().
-                            n -> s : X0000002().
+                            n -> zk : FailWorkerSpawnFoundNimbusToZK().
+                            n -> s : FailWorkerSpawnFoundNimbusToS().
                             spawn PWorker(zk,n,s,_W,W).0,
                         FailWorkerEnd(appId : Int exId : Int) :
-                            n -> zk : X0000003().
-                            n -> s : X0000004().0
+                            n -> zk : FailWorkerEndToConcreteZK().
+                            n -> s : FailWorkerEndToConcreteS().0
                     }
         };
 
@@ -25,31 +25,36 @@
                w@s.
                    s -> W : {
                        FailWorkerSpawnFoundSupervisor(appId : Int newAppId : Int) :
-                           s -> zk : X0001().
-                           s -> n : X0002().
+                           s -> zk : FailWorkerSpawnFoundSupervisorToConcreteZK().
+                           s -> n : FailWorkerSpawnFoundSupervisorToConcreteN().
                            spawn PWorker(zk, n, s, _W, W).0,
                        FailWorkerEnd(appId : Int exId : Int) :
-                           s -> zk : X0003().
-                           s -> n : X0004().0
+                           s -> zk : FailWorkerEndToConcreteZK().
+                           s -> n : FailWorkerEndToConcreteN().0
                    }
         };
 
         PStartWorkers(zk : ZK, n : N, s : S, _tw : W, W) = {
             mu t.
                 s -> W : {
-                    AddWorker(appId : Int workerId : Int) : s -> zk : Puck1(). s -> n : PrepAddWorker(). spawn PWorker(zk,n,s,_W,W).t,
-                    UpdateState() : s -> zk : Puck2(). s -> n : Puck(). 0
+                    AddWorker(appId : Int workerId : Int) :
+                        s -> zk : PrepSpawnWorkerToZK().
+                        s -> n : PrepSpawnWorkerToN().
+                        spawn PWorker(zk,n,s,_W,W).t,
+                    UpdateState() :
+                        s -> zk : UpdateWorkersStateToZK().
+                        s -> n : UpdateWorkersStateToN(). 0
                 }
             with
                 tw@s.
                     s -> W : {
                         FailStartWorkersSpawn(appId : Int newAppId : Int) :
-                            s -> zk : X11().
-                            s -> n : X22().
+                            s -> zk : FailStartWorkersSpawnToConcreteZK().
+                            s -> n : FailStartWorkersSpawnToConcreteN().
                             spawn PStartWorkers(zk, n, s, _W, W).0,
                         FailStartWorkersEnd(appId : Int exId : Int) :
-                            s -> zk : X111().
-                            s -> n  : X222().0
+                            s -> zk : FailStartWorkersEndToConcreteZK().
+                            s -> n  : FailStartWorkersEndToConcreteN().0
                     }
         };
 
@@ -62,12 +67,12 @@
            s@n.
                 n -> S : {
                     FailSupervisorSpawn(appId : Int newAppID : Int) :
-                        n -> zk : X1().
-                        n -> W  : X2().
+                        n -> zk : FailSupervisorSpawnToConcreteZK().
+                        n -> W  : FailSupervisorSpawnToW().
                         spawn PSupervisor(zk, n, _S, S, W).0,
                     FailSupervisorEnd(appId : Int ) :
-                        n -> zk : X3().
-                        n -> W  : X4().0
+                        n -> zk : FailSupervisorEndToConcreteZK().
+                        n -> W  : FailSupervisorEndToW().0
                 }
         };
 
@@ -75,8 +80,8 @@
        	   mu t.
              n -> zk : {
                NewSupervisor(appID : Int) :
-                n -> S : PrepSpawn().
-                n -> W : PrepSpawnW().
+                n -> S : PrepSpawnSupervisor().
+                n -> W : PrepSpawnSupervisorW().
                 spawn PSupervisor(zk, n, _S, S, W). t,
                SupervisorDone(appID : Int) :
                 n -> S : BMsg().
